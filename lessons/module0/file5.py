@@ -25,7 +25,7 @@ def main():
     for i in range(count):
       t.pendown()
 
-      for side in range(4):
+      for _ in range(4):
         t.forward(length - (i * step * 2))
         t.right(90)
 
@@ -34,6 +34,7 @@ def main():
       t.right(90)
       t.forward(step)
       t.left(90)
+      
   # drawSpiral(50)
       
   #4
