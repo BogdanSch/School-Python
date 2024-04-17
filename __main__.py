@@ -1,4 +1,4 @@
-import lessons.module0.file5 as file
+import lessons.module1.les6 as les
 
 if __name__ == "__main__":
-    file.main()      
+    les.main()      
