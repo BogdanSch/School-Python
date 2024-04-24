@@ -4,7 +4,7 @@ def find_average():
     average = sum(numbers) / len(numbers) 
     return average
     # Uliana: Ik vind deze code wel goed, maar ik zou er ook een fouthandeling toegoeven om te checken wat gebruiker heeft ingetypt.
-    # Ada: Hoewel het programma correct het gemiddelde van de getallen berekent, zou het optimaler zijn met verbeterde gebruikersinstructies: "Enter 5 number and separate them with a comma and whitespace: ".
+    # Ada: Het programma berekent correct het gemiddelde van de getallen, maar het zou optimaler zijn met verbeterde gebruikersinstructies: "Enter 5 number and separate them with a comma and whitespace: ".
 
 def calculate_age():
     birthyear = int(input("Enter your birthyear: "))

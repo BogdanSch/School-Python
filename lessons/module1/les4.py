@@ -18,16 +18,6 @@ def get_discount():
                 print("You won't get the discount!")
     else:
         print("Sorry, try again later!")
-        # if place == walibi:
-    #     if amountPeople >= 10:
-    #         print("You get a discount!")
-    #     else:
-    #         print("You won't get the discount!")
-    # elif place == slagharen:
-    #     if amountPeople >= 5 and amountPeople <= 10:
-    #         print("You get a discount!")
-    #     else:
-    #         print("You won't get the discount!")
 
 def main():
     get_discount()
